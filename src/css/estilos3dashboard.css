@@ -74,6 +74,9 @@ body{
     flex-basis: 80%;
     background-color: rgba(196, 196, 196, 0.5);
 }
+.boton2 i{
+border: #2CA3AB;
+}
 
 .usuario{
     font-size: 14px;
@@ -88,12 +91,14 @@ body{
     align-items: center;
     width: 120px;
     height: 40px;
-    margin: 0px;
-    margin-right: 10px;
+    margin: 10px 10px;
     padding: 5px;
-    background-color:var(--grey-color) ;
+    background-color:var(--grape-color) ;
+    color: white;
+    font-weight: 600;
     border: none;
     border-radius: 4px; 
+    border: #2CA3AB 2px;
     cursor: pointer;
 }
  i{
@@ -107,16 +112,40 @@ body{
     border: 2px solid var(--orange-color);
  }
 
+
+ h1{
+    font-family: 'Poppins', sans-serif; 
+     color: #F3610E;
+     font-size: 30px;
+     font-weight: 400;
+ }
     .documento{
    
     text-align: center;
     justify-content: center;
-
-
     }
+
+    .boton1{
+        background-color: var(--grape-color) ;
+        border: var(--blue-color) 2px solid;
+        border-radius: 5px;
+        color: white;
+        padding: 10px;
+    }
+
+input{
+    color: gray;
+    height: 40px;
+    padding: 10px;
+    padding-right: 1rem;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif; 
+    width: 300px;
+    border-bottom: var(--grape-color 2px solid);
+}
     
      h1{
-      
+        font-family: 'Poppins', sans-serif; 
         text-align: center;
         justify-content: center;
     }
